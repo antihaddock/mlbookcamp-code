@@ -1,5 +1,8 @@
 ## Homework
 
+> **Solution**:
+> * [Notebook](homework_8.ipynb)
+
 ### Dataset
 
 In this homework, we'll build a model for predicting if we have an image of a dino or a dragon. For this, we will use the "Dino or Dragon?" dataset that can be downloaded from [Kaggle](https://www.kaggle.com/datasets/agrigorev/dino-or-dragon). 
@@ -80,7 +83,7 @@ ImageDataGenerator(rescale=1./255)
 ```
 
 * We don't need to do any additional pre-processing for the images.
-* When reading the data from train/val directories, check the `class_mode` parameter. Which value should it be for a binary classification problem?
+* When reading the data from train/test directories, check the `class_mode` parameter. Which value should it be for a binary classification problem?
 * Use `batch_size=20`
 * Use `shuffle=True` for both training and test sets. 
 
